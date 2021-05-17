@@ -10,8 +10,8 @@ A core engine for donatemecrpyto.me created using Express JS
 - Date Created : 20210516
 
 ## Contributor
-- Frontend Developer : Ahmad Miqdad
-- Backend Developer : Nazrul Hanif
+- Frontend Developer : [Ahmad Miqdad](https://github.com/ahmadudon6)
+- Backend Developer : [Nazrul Hanif](https://github.com/lordnaz)
 
 
 ## Local Setup
