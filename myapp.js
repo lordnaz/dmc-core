@@ -1,6 +1,5 @@
 const express = require('express')
 const port = 3000
-var createError = require('http-errors');
 
 var path = require('path');
 var cookieParser = require('cookie-parser');

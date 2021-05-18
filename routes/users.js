@@ -1,17 +1,20 @@
 var express = require('express');
+
+// model 
+const User = require('../models/user');
+
+// controller
+const userController = require('../controllers/userController');
+
 var router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
+// register user 
+router.post('/register', userController.addUser);
 
-    let data = {
-        "first_name" : "Muhammad Nazrul Hanif",
-        "middle_name" : "",
-        "last_name" : "Bin M Harith"
+// retrieve all user 
+router.get('/retrieve', userController.getAllUser);
 
-    }
-    
-    res.send(data);
-});
+// retrieve user by id 
+router.get('/retrieve/:id', userController.getUserByID);
 
 module.exports = router;
