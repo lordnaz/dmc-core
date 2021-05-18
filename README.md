@@ -9,7 +9,7 @@ A core engine for donatemecrpyto.me created using Express JS and MongoDB
 - Author : Nazrul Hanif
 - Date Created : 20210516
 
-## Contributor
+## Project Contributor
 - Frontend Developer : [Ahmad Miqdad](https://github.com/ahmadudon6)
 - Backend Developer : [Nazrul Hanif](https://github.com/lordnaz)
 
@@ -24,9 +24,9 @@ This Instruction is for the first timer setup.
 ```
 $ npm install
 ```
-4. run `node myapp.js` in your cmd go to localhost:300 or http://127.0.0.1:3000 (default at port 300 can be change if require)
+4. run `npm run server` in your cmd go to localhost:300 or http://127.0.0.1:3000 (default at port 300 can be change if require)
 ```
-$ node myapp.js
+$ npm run server
 ```
 
 ## Production 
