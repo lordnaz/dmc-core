@@ -1,7 +1,7 @@
 DonateMeCrypto.me 
 =================
 
-A core engine for donatemecrpyto.me created using Express JS
+A core engine for donatemecrpyto.me created using Express JS and MongoDB
 
 ## Project Details
 - Project : donatemecrypto.me
